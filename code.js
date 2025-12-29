@@ -1,4 +1,4 @@
-const NPC = document.getElementById('NPC');
+const NPC = document.querySelector('.NPC');
 
 NPC.style.backgroundImage = `url('Textures/NPC${Math.floor(Math.random() * 4) + 1}.png')`;
 

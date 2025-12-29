@@ -1,3 +1,8 @@
+@font-face {
+    font-family: PixElegance;
+    src: url('PixelatedElegance.ttf');
+}
+
 .Furniture {
     width: 300px;
     height: 300px;        
@@ -14,10 +19,34 @@
     display: flex;
 }
 
-#NPC {
+.NPC {
     width: 480px;
     height: 720px;
-    background-image: url('Textures/NPC4.png');
     background-size: 5760px 5760px;
     image-rendering: pixelated;
+}
+
+
+#TextBubble {
+    border: 1px solid black;
+    width: 700px;
+    height: 300px;
+    position: relative;
+    left: 400px;
+    padding: 10px;
+    font-family: PixElegance;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    font-family: PixElegance;
+}
+
+#buttons {
+    position: absolute;
+    bottom: 10px;
+    width: 410px;
+    left: 50%;
+    transform: translate(-50%);
 }
